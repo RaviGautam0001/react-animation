@@ -7,15 +7,18 @@
     padding: 10px;
     text-align: center;
     box-sizing: border-box;
-    top: 30%;
+    top: 14%;
     left: 25%;
     width: 50%;
+    transition: all 0.3s ease-out;
 }
 
 .ModelOpen {
-   display: block;    
+   opacity: 1;
+   transform: translateY(0);    
 }
 
 .ModelClosed{
-   display: none;
+   opacity: 0;
+   transform: translateY(-100%);
 }
